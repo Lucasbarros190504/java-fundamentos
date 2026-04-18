@@ -11,7 +11,7 @@ public class RepeticaoWhile {
         System.out.print("Você deseja ver a tabuada de qual número: ");
         int numero = input.nextInt();
 
-        while (contador <= 10) { // Estrutura de repetição while, o loop vai continuar rodando ate o contador for menor ou igual a 10.
+        while (contador <= 10) { // Estrutura de repetição while.
             int resultado = (numero * contador);
 
             String tipo = (resultado % 2 == 0) ? " (PAR)" : " (IMPAR)"; // Define se o resultado é PAR ou Impar usando o operador ternario.
