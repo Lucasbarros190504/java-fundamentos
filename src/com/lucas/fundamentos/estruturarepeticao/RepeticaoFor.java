@@ -11,7 +11,7 @@ public class RepeticaoFor {
         System.out.print("Você deseja ver a tabuada de qual número: ");
         int numero = input.nextInt();
 
-        for (int contador = 1 ; contador <= 10; contador++) { // Estrutura de repetiçao FOR, o loop vai continuar rodando ate o contador for menor ou igual a 10.
+        for (int contador = 1 ; contador <= 10; contador++) { // Estrutura de repetiçao FOR
             int resultado = (numero * contador);
 
             String tipo = (resultado % 2 == 0) ? " (PAR)" : " (IMPAR)"; // Define se o resultado é PAR ou Impar usando o operador ternario.
