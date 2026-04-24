@@ -24,7 +24,7 @@ public class SistemaVotacao {
             System.out.println("Você deseja inserir outro ano de nascimento: [S/N] ");
             res = input.next();
 
-        }while (res.equalsIgnoreCase("S"));
+        } while (res.equalsIgnoreCase("S"));
 
         input.close();
 
